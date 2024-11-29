@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+// ---------------------------------------------------------------------------
+
 struct ContentView: View {
     @State private var selectedTab = 0
     @State private var showBorder = true
@@ -19,6 +21,7 @@ struct ContentView: View {
                 .border(showBorder ? .red : Color.clear, width: borderWidth)
                 .tabItem {
                     Image(systemName: "1.circle")
+                        .font(.title)
                 }
                 .tag(0)
             TriangleView(color: .orange)
@@ -46,9 +49,12 @@ struct ContentView: View {
                 }
                 .tag(4)
         }
+            .ignoresSafeArea()
             .padding()
     }
 }
+
+// ---------------------------------------------------------------------------
 
 #Preview {
     ContentView()

@@ -6,7 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		7211A2712CF977EC00FA19A0 /* NOTES.md in Resources */ = {isa = PBXBuildFile; fileRef = 7211A2702CF977EC00FA19A0 /* NOTES.md */; };
+		7211A2732CF9787B00FA19A0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7211A2722CF9787B00FA19A0 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		7211A2702CF977EC00FA19A0 /* NOTES.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = NOTES.md; sourceTree = "<group>"; };
+		7211A2722CF9787B00FA19A0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		72E8A8A42CF90B32003ADAF7 /* BlobDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlobDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -37,6 +44,8 @@
 		72E8A89B2CF90B32003ADAF7 = {
 			isa = PBXGroup;
 			children = (
+				7211A2702CF977EC00FA19A0 /* NOTES.md */,
+				7211A2722CF9787B00FA19A0 /* README.md */,
 				72E8A8D32CF96EA5003ADAF7 /* Confguration */,
 				72E8A8A62CF90B32003ADAF7 /* BlobDemo */,
 				72E8A8A52CF90B32003ADAF7 /* Products */,
@@ -116,6 +125,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7211A2712CF977EC00FA19A0 /* NOTES.md in Resources */,
+				7211A2732CF9787B00FA19A0 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

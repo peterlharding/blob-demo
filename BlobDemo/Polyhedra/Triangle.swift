@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+// ---------------------------------------------------------------------------
+
 struct Triangle: Shape {
     
     func path(in rect: CGRect) -> Path {
@@ -35,13 +37,4 @@ struct Triangle: Shape {
     }
 }
 
-extension BinaryInteger {
-    var degreesToRadians: CGFloat { CGFloat(self) * .pi / 180 }
-}
-
-extension Double {
-    var degreesToRadians: Self { self * .pi / 180.0 }
-    var radiansToDegrees: Self { self * 180.0 / .pi }
-}
-
-
+// ---------------------------------------------------------------------------

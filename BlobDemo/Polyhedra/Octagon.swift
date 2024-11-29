@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-
+// ---------------------------------------------------------------------------
 
 struct Octagon: Shape {
     // let noOfSides = 8
@@ -40,10 +40,8 @@ struct Octagon: Shape {
         
         print(" Octagon adjacentOffset |\(adjacentOffset)|")
         print(" Octagon oppositeOffset |\(oppositeOffset)|")
-        
-        //    let vertOffset   = sideLength / 2.0              // sin 30 degrees = 0.5
-        //    let horizOffset  = sideLength * sqrt(3.0) / 2.0  // cos 30 degrees = 0.866...
-        //
+
+
         path.move(to: CGPoint(x: x, y: y - radius))
         
         // First Quadrant
@@ -70,3 +68,5 @@ struct Octagon: Shape {
         return path
     }
 }
+
+// ---------------------------------------------------------------------------

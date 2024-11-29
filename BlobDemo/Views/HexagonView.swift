@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+// ---------------------------------------------------------------------------
+
 struct HexagonView: View {
     @State var position: CGPoint = .zero
     let color: Color
@@ -54,6 +56,8 @@ struct HexagonView: View {
     }
 
 }
+
+// ---------------------------------------------------------------------------
 
 #Preview {
     HexagonView(color: .teal)

@@ -7,11 +7,12 @@
 
 import SwiftUI
 
-
+// ---------------------------------------------------------------------------
 
 struct Pentagon: Shape {
 
     func path(in rect: CGRect) -> Path {
+        
         let numberOfSides = 5
         let sectionAngle = 2.0 * Double.pi / Double(numberOfSides)
         let internalAngle = (Double(numberOfSides) - 2.0) * Double.pi / Double(numberOfSides)
@@ -41,9 +42,7 @@ struct Pentagon: Shape {
         print("         adjacentOffset |\(adjacentOffset)|")
         print("         oppositeOffset |\(oppositeOffset)|")
         
-        //    let vertOffset   = sideLength / 2.0              // sin 30 degrees = 0.5
-        //    let horizOffset  = sideLength * sqrt(3.0) / 2.0  // cos 30 degrees = 0.866...
-        //
+
         path.move(to: CGPoint(x: x, y: y - radius))
         
         // First Quadrant
@@ -67,3 +66,5 @@ struct Pentagon: Shape {
         return path
     }
 }
+
+// ---------------------------------------------------------------------------

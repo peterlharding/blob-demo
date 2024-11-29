@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+// ---------------------------------------------------------------------------
+
 struct BlobView: View {
     @State var position: CGPoint = .zero
     let color: Color
@@ -42,6 +44,8 @@ struct BlobView: View {
     }
 
 }
+
+// ---------------------------------------------------------------------------
 
 #Preview {
     BlobView(color: .red)

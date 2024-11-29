@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+// ---------------------------------------------------------------------------
+
 struct OctagonView: View {
     @State var position: CGPoint = .zero
     let color: Color
@@ -52,6 +54,8 @@ struct OctagonView: View {
         }
     }
 }
+
+// ---------------------------------------------------------------------------
 
 #Preview {
     OctagonView(color: .yellow)

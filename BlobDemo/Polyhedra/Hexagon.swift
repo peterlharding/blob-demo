@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+// ---------------------------------------------------------------------------
+
 struct Hexagon: Shape {
     func path(in rect: CGRect) -> Path {
         var path   = Path()
@@ -29,3 +31,6 @@ struct Hexagon: Shape {
         return path
     }
 }
+
+// ---------------------------------------------------------------------------
+

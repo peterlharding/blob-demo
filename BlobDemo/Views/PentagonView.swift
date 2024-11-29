@@ -7,8 +7,12 @@
 
 import SwiftUI
 
+// ---------------------------------------------------------------------------
+
 struct PentagonView: View {
+    
     @State var position: CGPoint = .zero
+    
     let color: Color
     
     var body: some View {
@@ -52,6 +56,8 @@ struct PentagonView: View {
         }
     }
 }
+
+// ---------------------------------------------------------------------------
 
 #Preview {
     PentagonView(color: .orange)
