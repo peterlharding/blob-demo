@@ -16,6 +16,11 @@
 			path = BlobDemo;
 			sourceTree = "<group>";
 		};
+		72E8A8D32CF96EA5003ADAF7 /* Confguration */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Confguration;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +37,7 @@
 		72E8A89B2CF90B32003ADAF7 = {
 			isa = PBXGroup;
 			children = (
+				72E8A8D32CF96EA5003ADAF7 /* Confguration */,
 				72E8A8A62CF90B32003ADAF7 /* BlobDemo */,
 				72E8A8A52CF90B32003ADAF7 /* Products */,
 			);
@@ -62,6 +68,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				72E8A8A62CF90B32003ADAF7 /* BlobDemo */,
+				72E8A8D32CF96EA5003ADAF7 /* Confguration */,
 			);
 			name = BlobDemo;
 			packageProductDependencies = (
